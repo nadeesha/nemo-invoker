@@ -9,6 +9,8 @@ Invokes a given lambda and sends back the result
     "pluginName": "nemo-plugin-github-development",
     "payload": {
         "username": "ncthis"
-    }
+    },
+    "personId": 1,
+    "pluginId": 1
 }
 ```
