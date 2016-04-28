@@ -7,9 +7,7 @@ export default function (personId, pluginId, events) {
         personId,
         pluginId,
       })));
-      
-      console.log('--- events', events);
-      console.log('--- processedEvents', processedEvents);
+    
 
     superagent
       .post(`${process.env.NEMO_URI}/events`)
